@@ -1,0 +1,85 @@
+/* Formatação de todo o corpo da página */
+body{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* adicionar espaçamento para compensar o header fixo */
+    padding-top: 140px;
+}
+
+/* Formatação em dois tags */
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Configurando 3 tags (header, nav, a) */
+header nav a{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+.galeria img{
+    margin: 10px;
+    border: 2px solid #a7a7ac;
+    width: auto;
+    height: 200px;
+    /* Sombra suave */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.galeria img:hover{
+    /* Aumenta a imagem em 10% */
+    transform: scale(1.1);
+}
+
+#midias{
+    margin: 20px;
+    text-align: center;
+}
+
+#midias video, #midias audio{
+    display: block;
+    margin: 10px auto;
+}
+
+/* compensar o header fixo ao rolar até as seções */
+section{
+    scroll-margin-top: 120px;
+}
+
+#mapa{
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.tabela-preco{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-preco th, .tabela-preco td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}

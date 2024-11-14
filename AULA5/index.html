@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Loja de Tênis</title>
+</head>
+
+<body>
+    <!-- cabeçalho do site-->
+    <header>
+        <h1>Bem-vindo à nossa loja de tênis</h1>
+        
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="index.html">Home</a>
+              <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html#produtos">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html#sobre">Sobre nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html#contato">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="local.html">Localização</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="preco.html">Preços</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="cadastro.html">Cadastro</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- conteúdo principal do site -->
+    <main class="container-fluid" >
+        <!-- seção de produtos -->
+        <section id="produtos" class="row">
+            <h2>Nossos produtos</h2>
+            <!-- cada produto com um artigo -->
+            <article class="galeria col-12 col-md-6">
+                <h3>Tênis de corrida</h3>
+                <p>Ideal para quem buscar perfomace e conforto nas corridas</p>
+                <a href="images/corrida1.jpg" target="_blank"><img class="rounded-circle" src="images/corrida1.jpg" alt="Tênis de corrida na cor cinza"></a>
+                <a href="images/corrida2.jpg" target="_blank"><img class="rounded-circle" src="images/corrida2.jpg" alt="Tênis de corrida na cor verde"></a>
+                <a href="images/corrida3.jpg" target="_blank"><img class="rounded-circle" src="images/corrida3.jpg" alt="Tênis de corrida na cor azul"></a>
+            </article>
+
+            <article class="galeria col-12 col-md-6">
+                <h3>Tênis casual</h3>
+                <p>Para um estilo de conforto e design moderno</p>
+                <a href="images/casual1.png" target="_blank"><img class="rounded-pill" src="images/casual1.png" alt="Tênis casual na cor preta"></a>
+                <a href="images/casual2.jpg" target="_blank"><img class="rounded-pill" src="images/casual2.jpg" alt="Tênis de corrida na cor cinza escuro"></a>
+                <a href="images/casual3.png" target="_blank"><img class="rounded-pill" src="images/casual3.png" alt="Tênis de corrida na cor cinza e vermelho"></a>
+            </article>
+        </section>
+        <hr>
+        <!-- section de sobre nós -->
+        <section id="sobre">
+            <h2>Sobre nós</h2>
+            <p>Conheça mais sobre nossa loja e nossos valores</p>
+        </section>
+        <hr>
+        <!-- section de contatos -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações</p>
+        </section>
+
+        <!-- section midias -->
+        <section id="midias">
+            <h2>Experimente nossos produtos</h2>
+            <video height="240" width="320" controls>
+                <source src="videos/video1.mp4" type="video/mp4">
+                Seu navegador não suporta tag de video.
+            </video>
+
+            <audio controls>
+                <source src="audios/audio1.mp3" type="audio/mp3">
+                Seu navegador não suporta tag de audio
+            </audio>
+        </section>
+        <hr>
+
+        <section id="mapa">
+            <h2>Onde nós estamos localizados</h2>
+            
+        </section>
+    </main>
+    <aside>
+        <h3>Anúncios</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_kRPxeRu7fQ?si=gg-IqrJzYayUnB0d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </aside>
+    <footer>
+        <p>&copy; 2024 loja de Tênis, Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

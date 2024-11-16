@@ -9,8 +9,8 @@
     <title>A História e Evolução dos Microprocessadores</title>
 </head>
 
-<body class="container">
-    <header class="text-center">
+<body>
+    <header class="container text-center">
         <h1>A História e Evolução dos Microprocessadores</h1>
         <h2>O coração dos dispositivos eletrônicos modernos.</h2>
         <nav>
@@ -22,7 +22,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="container p-3 mb-2 bg-secondary-subtle text-secondary-emphasis">
         <section id="introducao" class="row">
             <article class="col">
                 <h3>Introdução</h3>
@@ -32,11 +32,11 @@
 
         <section id="historia" class="row">
             <h2>História</h2>
-            <article  class="col-md-11">
+            <article  class="col-md-10">
                 <p>A história dos microprocessadores começa na década de 1970. O primeiro microprocessador comercialmente disponível foi o Intel 4004, lançado em 1971. Desenvolvido por Intel, esse chip de 4 bits foi originalmente projetado para calculadoras, mas abriu caminho para a revolução dos computadores pessoais.</p>
             </article>
-            <div class="col-1 figure">
-                <img src="imagens/Intel_4004.jpg" class="rounded" alt="Intel 4004" style="width: auto; height: 150px;">
+            <div class="col-2 figure">
+                <img src="imagens/Intel_4004.jpg" class="rounded" alt="Intel 4004" style="width: auto; height: 200px;">
                 <figcaption class="figure-caption">Intel 4004</figcaption>
             </div>
         </section>
@@ -47,11 +47,19 @@
                 <p>Ao longo das décadas, os microprocessadores evoluíram significativamente:</p>
                 <ol>
                     <li>
-                        <strong>Década de 1970:</strong>
-                        <ul>
-                            <li>Intel 4004 (1971): Primeiro microprocessador, 4 bits.</li>
-                            <li>Intel 8080 (1974): 8 bits, usado em computadores pessoais como o Altair 8800.</li>
-                        </ul>
+                        <div class="row">
+                            <div class="col-xxl-9">
+                                <strong>Década de 1970:</strong>                                
+                                <ul>
+                                    <li>Intel 4004 (1971): Primeiro microprocessador, 4 bits.</li>
+                                    <li>Intel 8080 (1974): 8 bits, usado em computadores pessoais como o Altair 8800.</li>
+                                </ul>
+                            </div>
+                            <div class="col-3">
+                                <img src="imagens/CPU_Altair_8800.jpg" class="rounded" alt="Altair 8800" style="width: 300px; height: auto;">
+                                <figcaption class="figure-caption text-end"><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=467126">Altair 8800</a></figcaption>
+                            </div>
+                        </div>
                     </li>
                     
                     <li>
